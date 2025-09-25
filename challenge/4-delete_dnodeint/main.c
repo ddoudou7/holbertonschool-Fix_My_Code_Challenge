@@ -2,10 +2,6 @@
 #include <stdio.h>
 #include "lists.h"
 
-/**
- * main - check the code for Holberton School students.
- * Return: Always EXIT_SUCCESS.
- */
 int main(void)
 {
     dlistint_t *head;
@@ -41,24 +37,6 @@ int main(void)
     printf("-----------------\n");
     delete_dnodeint_at_index(&head, 0);
     print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
     printf("-----------------\n");
     delete_dnodeint_at_index(&head, 0);
     print_dlistint(head);
