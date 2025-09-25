@@ -30,3 +30,4 @@ Example:
 
 ## Author
 Project completed as part of the **Holberton School** curriculum.
+
