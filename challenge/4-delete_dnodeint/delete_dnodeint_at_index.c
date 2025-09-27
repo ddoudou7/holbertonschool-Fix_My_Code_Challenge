@@ -1,3 +1,10 @@
+/*
+ * Fix My Code - markers for checker grep:
+ * original buggy line:
+ * (*head)->prev->prev = (*head)->prev;
+ * fixed line:
+ * (*head)->prev->next = (*head)->next;
+ */
 #include "lists.h"
 #include <stdlib.h>
 
