@@ -1,12 +1,17 @@
 # Fix My Code Challenge
 
-This repository contains solutions to the **Fix my code** challenges.
+This repository contains my solutions for the **Fix my code** project at Holberton School.
 
-## Projects
-- FizzBuzz (Python) – corrected logic and exact output
-- Other challenges in C, Python, etc.
-
-Each task fixes existing broken code, respecting Holberton’s requirements:
-- Ubuntu 20.04
-- gcc / python3
+Each task fixes broken code provided by Holberton, while respecting the original requirements:
+- Ubuntu 20.04 LTS
+- `gcc` (for C)
+- `python3` (for Python)
 - All files end with a newline
+
+## Tasks
+
+### 0. FizzBuzz (Python)
+- Fixed: print "FizzBuzz" for multiples of 15, not just "Fizz" or "Buzz".
+
+### 4. Double linked list (C)
+- Fixed: correct pointer relinking when deleting nodes.
